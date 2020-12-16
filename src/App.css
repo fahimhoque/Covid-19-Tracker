@@ -28,7 +28,12 @@ body {
   color: #fc3c3c;
   font-size: 2rem;
 }
-
+.app__graph {
+  flex: 1;
+}
+.app__graphTitle {
+  margin-top: 20px;
+}
 .app__stats {
   display: flex;
   justify-content: space-between;

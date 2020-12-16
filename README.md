@@ -1,5 +1,18 @@
 # React Covid-19 Tracker
 
+All data shown in the app has been taken from https://disease.sh/docs/
+`country list for dropdown`
+https://disease.sh/v3/covid-19/countries
+
+`get global COVID-19 totals for today, yesterday and two days ago`
+https://disease.sh/v3/covid-19/all
+
+`get particular country's data`
+https://disease.sh/v3/covid-19/countries/${[COUNTRY_CODE]}
+
+`map`
+https://www.openstreetmap.org/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
