@@ -124,12 +124,12 @@ function App() {
         </div>
 
         {/* Map */}
-        {/* <Map
+        <Map
           countries={mapCountries}
           casesType={casesType}
           center={mapCenter}
           zoom={mapZoom}
-        /> */}
+        />
       </div>
       
 
