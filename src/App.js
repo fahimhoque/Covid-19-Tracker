@@ -15,10 +15,7 @@ import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
 
-
-function App() {
-
-  //States
+const App = () => {
   const [country, setInputCountry] = useState("worldwide");
   const [countryInfo, setCountryInfo] = useState({});
   const [countries, setCountries] = useState([]);
@@ -74,10 +71,6 @@ function App() {
       });
   };
 
-
-
-
-  // Return Views
   return (
     <div className="app">
       <div className="app__left">
@@ -96,7 +89,6 @@ function App() {
             </Select>
           </FormControl>
         </div>
-
         <div className="app__stats">
           <InfoBox
             onClick={(e) => setCasesType("cases")}
@@ -122,8 +114,6 @@ function App() {
             total={numeral(countryInfo.deaths).format("0.0a")}
           />
         </div>
-
-        {/* Map */}
         <Map
           countries={mapCountries}
           casesType={casesType}
@@ -131,9 +121,6 @@ function App() {
           zoom={mapZoom}
         />
       </div>
-      
-
-      {/* Left Portion of the application */}
       <Card className="app__right">
         <CardContent>
           <div className="app__information">
@@ -146,6 +133,6 @@ function App() {
       </Card>
     </div>
   );
-}
+};
 
 export default App;

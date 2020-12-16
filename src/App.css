@@ -54,9 +54,3 @@ body {
     flex-direction: column;
   }
 }
-
-@media (max-width: 990px) {
-  .app {
-    flex-direction: column;
-  }
-}
