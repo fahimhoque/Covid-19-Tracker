@@ -17,6 +17,13 @@ https://disease.sh/v3/covid-19/countries/${[COUNTRY_CODE]}
 `map`
 
 https://www.openstreetmap.org/
+# Screenshots:
+
+![landing](https://user-images.githubusercontent.com/50498916/102475075-9b941a00-4083-11eb-81c4-835f4f3f67f6.JPG)
+
+![selected](https://user-images.githubusercontent.com/50498916/102475143-b6ff2500-4083-11eb-8ffb-1d42fd6bdf06.JPG)
+
+
 
 # Getting Started with Create React App
 
